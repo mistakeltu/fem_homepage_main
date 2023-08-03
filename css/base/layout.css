@@ -1,0 +1,41 @@
+.grid-col-span-2 {
+  grid-column: span 2;
+}
+
+.grid-col-span-3 {
+  grid-column: span 3;
+}
+
+.container {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  width: 1440px;
+  height: 100vh;
+  margin-left: calc(50% - 720px);
+}
+
+.nav {
+  background-color: beige;
+}
+
+.main-img {
+  background-color: bisque;
+}
+
+.main-info {
+  grid-column: span 2;
+  background-color: blue;
+}
+
+.footer-info {
+  background-color: brown;
+}
+
+.side-news {
+  background-color: azure;
+  grid-column-start: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
