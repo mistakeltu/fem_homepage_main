@@ -5,3 +5,7 @@
 /* LAYOUT */
 
 @import "../base/layout.css";
+
+/* BUTTON */
+
+@import "../components/buttons.css";
