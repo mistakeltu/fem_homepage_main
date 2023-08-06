@@ -4,16 +4,39 @@
   padding: 0;
 }
 
+/* CONTAINER */
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
+  width: 1440px;
+  margin-left: calc(50% - 720px);
+  margin-top: 50px;
 }
 
+/* NAVIGATION */
+
 .nav {
-  background-color: beige;
+  display: flex;
+  justify-content: space-between;
   grid-column: 1/4;
   height: 50px;
+}
+
+.nav-btn {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.btn {
+  text-decoration: none;
+  color: hsl(236, 13%, 42%);
+}
+
+.btn:hover {
+  color: hsl(5, 85%, 63%);
 }
 
 .main-img {
