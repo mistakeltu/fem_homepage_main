@@ -76,10 +76,34 @@
 /* NEWS */
 
 .side-news {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   grid-column: 3/4;
   grid-row: 2/4;
   height: 500px;
   background-color: hsl(240, 100%, 5%);
+  padding: 20px;
+}
+
+.news h2 {
+  color: #ffffff;
+}
+
+.news p {
+  padding-top: 10px;
+  color: hsl(236, 13%, 42%);
+}
+
+.side-news-title {
+  color: hsl(35, 77%, 62%);
+}
+
+.news-about {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: larger;
+  font-weight: 600;
 }
 
 /* FOOTER */
@@ -92,7 +116,7 @@
 
 /* MEDIA */
 
-@media (max-width: 920px) {
+@media (max-width: 1200px) {
   .container {
     grid-template-columns: 1fr;
     width: 100%;
