@@ -28,6 +28,27 @@
   padding: 20px;
 }
 
+/* NAVIGATION */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  grid-column: 1/4;
+  height: 50px;
+}
+
+.nav-btn {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav-img {
+  display: none;
+  cursor: pointer;
+  color: var(--main-dark-blue);
+}
+
 /* FOOTER */
 
 .footer-info {
@@ -57,6 +78,8 @@
   .container {
     grid-template-columns: 1fr;
     width: 100%;
+    gap: 0;
+    row-gap: 20px;
   }
 
   .nav {
@@ -94,5 +117,8 @@
   }
   .nav-img {
     display: block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
 }

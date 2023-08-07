@@ -21,12 +21,6 @@
 
 /* NAV BUTTON */
 
-.nav-btn {
-  display: flex;
-  gap: 30px;
-  align-items: center;
-}
-
 .btn {
   text-decoration: none;
   color: var(--grayish-blue);
