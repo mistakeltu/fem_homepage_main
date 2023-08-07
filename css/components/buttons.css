@@ -1,18 +1,37 @@
+/* READ MORE BUTTON */
+
 .read-more {
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  background-color: hsl(240, 100%, 5%);
-  color: white;
+  background-color: var(--main-dark-blue);
+  color: var(--off-white);
   width: 150px;
   padding: 12px 10px;
 }
 
 .read-more a {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--off-white);
 }
 
 .read-more:hover {
-  background-color: hsl(5, 85%, 63%);
+  background-color: var(--primary-soft-red);
+}
+
+/* NAV BUTTON */
+
+.nav-btn {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.btn {
+  text-decoration: none;
+  color: var(--grayish-blue);
+}
+
+.btn:hover {
+  color: var(--primary-soft-red);
 }
