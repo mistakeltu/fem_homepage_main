@@ -14,6 +14,12 @@
   margin: 100px auto;
 }
 
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
 /* NAVIGATION */
 
 .nav {
@@ -42,8 +48,6 @@
 
 .main-img {
   grid-column: 1/3;
-  /* width: 750px;
-  height: 200px; */
 }
 
 .pav {
@@ -56,17 +60,16 @@
   grid-column: 1/3;
   grid-row: 3/4;
   height: 100%;
-  display: flex;
 }
 
 .main-name {
   font-family: Inter;
-  font-size: x-large;
-  font-weight: bold;
-  width: 100%;
+  font-size: xxx-large;
+  font-weight: 900;
 }
 
 .main-p {
+  display: inline-block;
   color: hsl(236, 13%, 42%);
 }
 
@@ -113,5 +116,13 @@
   .footer-info {
     grid-column: 1;
     grid-row: 5;
+  }
+  .main-name {
+    grid-column: 1/3;
+    grid-row: 3;
+  }
+  .main-p {
+    grid-column: 1/3;
+    grid-row: 4;
   }
 }
