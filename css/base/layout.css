@@ -126,6 +126,13 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.info-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 20px;
+}
+
 /* MEDIA */
 
 @media (max-width: 1200px) {
