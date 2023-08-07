@@ -106,12 +106,24 @@
   font-weight: 600;
 }
 
+.news-about:hover {
+  color: hsl(35, 77%, 62%);
+}
+
 /* FOOTER */
 
 .footer-info {
   grid-column: 1/4;
-  height: 50px;
-  background-color: brown;
+}
+
+.footer-box {
+  display: flex;
+}
+
+.footer-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* MEDIA */
@@ -148,5 +160,8 @@
   .main-p {
     grid-column: 1/3;
     grid-row: 4;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
   }
 }
