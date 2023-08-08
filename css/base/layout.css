@@ -136,7 +136,6 @@
   .nav-toggle {
     display: block;
     position: absolute;
-    position: fixed;
     z-index: 9999;
     background-color: transparent;
     background-image: url(../../images/icon-menu.svg);
@@ -146,6 +145,7 @@
     top: 3.5rem;
     right: 1rem;
     border: none;
+    cursor: pointer;
   }
 
   .nav-toggle[aria-expanded="true"] {
